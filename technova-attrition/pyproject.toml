@@ -2,7 +2,7 @@
 name = "projet4-classification-attrition"
 version = "0.1.0"
 description = "Identification des causes d'attrition au sein de TechNova Partners"
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.10,<3.14"
 
 dependencies = [
     "pandas>=2.0",
