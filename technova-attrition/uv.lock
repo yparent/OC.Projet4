@@ -1980,7 +1980,7 @@ wheels = [
 [[package]]
 name = "projet4-classification-attrition"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "imbalanced-learn" },
     { name = "ipykernel" },
