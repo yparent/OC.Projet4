@@ -1,16 +1,22 @@
 [project]
-name = "technova-attrition"
+name = "projet4-classification-attrition"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
+description = "Identification des causes d'attrition au sein de TechNova Partners"
+requires-python = ">=3.10,<3.13"
+
 dependencies = [
-    "imbalanced-learn>=0.14.1",
-    "jupyterlab>=4.5.6",
-    "matplotlib>=3.10.8",
-    "pandas>=3.0.2",
-    "scikit-learn>=1.8.0",
-    "seaborn>=0.13.2",
-    "shap>=0.51.0",
-    "xgboost>=3.2.0",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "seaborn>=0.12",
+    "scikit-learn>=1.3",
+    "xgboost>=2.0",
+    "imbalanced-learn>=0.11",
+    "shap>=0.43",
+    "jupyter>=1.0",
+    "ipykernel>=6.25",
 ]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
